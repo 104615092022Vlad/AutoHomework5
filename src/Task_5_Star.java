@@ -10,8 +10,8 @@ public class Task_5_Star {
         double deposit = 1000;
         final double rate = 0.02;
         double profit = 0;
-        final double aimSum = 1200;
-        final double aimProfit = 30;
+        final double aimSum = 1350;
+        final double aimProfit = 42;
         int month = 2;
         while (profit <= aimProfit) {
             profit = deposit * rate;
