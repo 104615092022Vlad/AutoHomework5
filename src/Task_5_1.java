@@ -2,6 +2,7 @@
 Составить программу, которая уменьшает первое введённое число в два раза, если
 оно больше второго введённого числа по абсолютной величине.
 */
+
 import java.util.Scanner;
 public class Task_5_1 {
     public static void main(String[] args) {
