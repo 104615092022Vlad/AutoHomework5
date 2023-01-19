@@ -1,8 +1,8 @@
 /*
 Гражданин 1 марта открыл счет в банке, вложив  1000 руб. Через каждый месяц размер вклада увеличивается
 на 2% от имеющейся суммы. Определить:
-1. За какой месяц величина ежемесячного увеличения вклада превысит 30 руб.;
-2. Через сколько месяцев размер вклада превысит 1200 руб.
+1. За какой месяц величина ежемесячного увеличения вклада превысит 40 руб.;
+2. Через сколько месяцев размер вклада превысит 1500 руб.
  */
 
 public class Task_5_Star {
@@ -10,8 +10,8 @@ public class Task_5_Star {
         double deposit = 1000;
         final double rate = 0.02;
         double profit = 0;
-        final double aimSum = 1200;
-        final double aimProfit = 30;
+        final double aimSum = 1500;
+        final double aimProfit = 40;
         int month = 2;
         while (profit <= aimProfit) {
             profit = deposit * rate;
